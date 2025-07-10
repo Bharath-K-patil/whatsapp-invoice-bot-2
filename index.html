@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Invoice Bot</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{font-family:Arial;padding:20px;background:#f4f4f4;}form{background:#fff;padding:20px;border-radius:10px;max-width:500px;margin:auto}input,button{width:100%;padding:10px;margin:10px 0}button{background:green;color:#fff;border:none}</style>
+</head><body>
+<h2 style="text-align:center;">Send Invoice via WhatsApp</h2>
+<form method="post">
+  <input name="name" placeholder="Customer Name" required>
+  <input name="phone" placeholder="Phone Number (no +91)" required>
+  <input name="company" placeholder="Company Name" required>
+  <input name="invoice" placeholder="Invoice Number" required>
+  <input name="amount" type="number" placeholder="Amount Paid" required>
+  <input name="date" placeholder="Date (DD/MM/YYYY)" required>
+  <button type="submit">Send WhatsApp Message</button>
+</form>
+</body></html>
